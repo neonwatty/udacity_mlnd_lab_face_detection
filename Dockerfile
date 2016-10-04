@@ -1,4 +1,5 @@
-FROM ubuntu:14.04
+# FROM ubuntu:14.04
+FROM andrewosh/binder-base
 
 RUN apt-get update
 
