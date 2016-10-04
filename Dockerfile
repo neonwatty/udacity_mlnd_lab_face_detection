@@ -5,7 +5,7 @@ USER root
 # RUN mkdir /var/lib/apt/lists/partial
 RUN apt-get update
 
-RUN su apt-get install -y cmake 
+RUN apt-get install -y cmake 
 
 RUN easy_install pip
 RUN pip install dlib
