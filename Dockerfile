@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-RUN apt-get update && apt-get install -y \
+RUN sudo apt-get update && sudo apt-get install -y \
     build-essential \
     cmake \
     curl \
@@ -18,6 +18,6 @@ RUN apt-get update && apt-get install -y \
     zip \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN apt-get install -y python-setuptools
+RUN sudo apt-get install -y python-setuptools
 RUN easy_install pip
 RUN pip install dlib
