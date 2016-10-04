@@ -15,8 +15,8 @@ RUN apt-get update && apt-get install -y \
     python-protobuf \
     python-setuptools \
     software-properties-common \
-    zip \
-    && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    zip 
+    # && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN apt-get install -y python-setuptools
 RUN easy_install pip
