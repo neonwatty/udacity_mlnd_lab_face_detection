@@ -7,7 +7,6 @@ RUN apt-get update && apt-get install -y \
     libopenblas-dev \
     libX11-dev \
     libboost-python-dev \
-    pkg-config \
     python-dev \
     python-numpy \
     python-setuptools 
