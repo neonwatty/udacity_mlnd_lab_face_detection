@@ -12,12 +12,7 @@ RUN apt-get update && apt-get install -y \
     pkg-config \
     python-dev \
     python-numpy \
-    python-protobuf \
-    python-setuptools #\
-    #software-properties-common \
-    #zip 
-    # && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    python-setuptools 
 
-RUN apt-get install -y python-setuptools
 RUN easy_install pip
 RUN pip install dlib
