@@ -1,5 +1,4 @@
-# FROM ubuntu:14.04
-FROM andrewosh/binder-base
+FROM ubuntu:14.04
 USER root
 
 
