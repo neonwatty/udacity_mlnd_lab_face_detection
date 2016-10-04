@@ -3,8 +3,6 @@ FROM ubuntu:14.04
 RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \
-    curl \
-    wget \
     liblapack-dev \
     libopenblas-dev \
     libX11-dev \
