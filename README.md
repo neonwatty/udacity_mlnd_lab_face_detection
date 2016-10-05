@@ -1,6 +1,6 @@
 Click the Binder tab belowto launch a live instance of the Jupyter notebooks in this repo.
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/jermwatt/udacity-picodegree)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/jermwatt/udacity-mlnd-intro-projects)
 
 # Udacity Machine Learning Nanodegree intro projects
 
