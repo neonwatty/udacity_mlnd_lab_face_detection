@@ -21,12 +21,13 @@ RUN apt-get update && apt-get install -y \
     zip \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
     
-# install dlib library 
 RUN easy_install pip
-RUN pip install dlib
 
 # install current dev version of scikit (for neural net library)
 RUN pip install scikit-learn==0.18.rc2
+
+# install dlib library (for face detection library)
+RUN pip install dlib
 
 # install opencv via conda (used for img visualization)
 RUN conda install -y opencv
