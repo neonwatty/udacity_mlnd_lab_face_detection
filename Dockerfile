@@ -19,5 +19,6 @@ RUN apt-get update && apt-get install -y \
     zip \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+RUN apt-get install -y python-opencv
 RUN easy_install pip
 RUN pip install dlib
