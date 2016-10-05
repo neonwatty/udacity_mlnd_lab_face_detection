@@ -1,4 +1,5 @@
-FROM ubuntu:14.04
+# FROM ubuntu:14.04
+FROM continuumio/anaconda
 USER root
 
 RUN apt-get update && apt-get install -y \
@@ -18,7 +19,8 @@ RUN apt-get update && apt-get install -y \
     software-properties-common \
     zip \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
 RUN apt-get install -y python-opencv
 RUN easy_install pip
 RUN pip install dlib
+RUN conda install -y opencv
+
