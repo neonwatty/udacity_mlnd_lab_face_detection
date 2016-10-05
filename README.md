@@ -2,7 +2,7 @@ Click the Binder tab belowto launch a live instance of the Jupyter notebooks in 
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/jermwatt/udacity-picodegree)
 
-# udacity-picodegree projects
+# Udacity Machine Learning Nanodegree intro projects
 
 This repo contains iteractive demos of several machine learning algorithms introduced in the Picodegree lecture, each of which is explained in significant detail in Udacity's Machine Learning Nanodegree.  These interactive demos come in the form of  Python based [Jupyter notebooks](http://jupyter.org/)  (these are files with the extension .ipynb), which is a convenient open source platform for using Python to perform machine learning (and more generally computational science) tasks.
 
