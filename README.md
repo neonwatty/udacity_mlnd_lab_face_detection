@@ -18,4 +18,4 @@ Current notebooks in the repo include:
 
 **nonlinear_demo.ipynb** - this allows you to play around with several popular algorithms including: kernelized Support Vector Machines, neural networks, and decision trees.  Using two dimensional toy datasets you can compare how an individual algorithm performs over a range of its parmeter values, as well as compare how algorithms stack up against each other.
 
-To see a rubric for this project (a high level overview of what we hope you gain from using these notebooks) see *Picodegree_projects_rubric.pdf*, located in this repo.
+To see a rubric for this project (a high level overview of what we hope you gain from using these notebooks) see *intro_MLND_projects_rubric.pdf*, located in this repo.
