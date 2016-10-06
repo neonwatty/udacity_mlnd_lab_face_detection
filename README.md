@@ -6,11 +6,11 @@ Alternatively, you can run your own Docker container of the contents of this rep
 
 docker run -it -d -p 8888:8888 jermwatt/udacity:mlnd_intro_projects
 
-at your terminal.  This will create an interactive session containing the notebooks which you can access via a browser at the address http://[your_ip_address]:8888
+at your terminal.  This will create an interactive session containing the notebooks which you can access via a browser at the address [your_ip_address]:8888
 
 # Udacity Machine Learning Nanodegree intro projects
 
-This repo contains iteractive demos of several machine learning algorithms introduced in the Picodegree lecture, each of which is explained in significant detail in Udacity's Machine Learning Nanodegree.  These interactive demos come in the form of  Python based [Jupyter notebooks](http://jupyter.org/)  (these are files with the extension .ipynb), which is a convenient open source platform for using Python to perform machine learning (and more generally computational science) tasks.
+This repo contains iteractive demos of several machine learning algorithms introduced in the introductory lectures for Udacity's Machine Learning Nanodegree program. These interactive demos come in the form of  Python based [Jupyter notebooks](http://jupyter.org/)  (these are files with the extension .ipynb), which is a convenient open source platform for using Python to perform machine learning (and more generally computational science) tasks.
 
 Current notebooks in the repo include:
 
