@@ -1,6 +1,12 @@
-Click the Binder tab belowto launch a live instance of the Jupyter notebooks in this repo.
+Click the Launch Binder tab below tolaunch a live instance of the Jupyter notebooks in this repo.
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/jermwatt/udacity-mlnd-intro-projects)
+
+Alternatively, you can run your own Docker container of the contents of this repo by running the command
+
+docker run -it -d -p 8888:8888 jermwatt/udacity:mlnd_intro_projects
+
+at your terminal.  This will create an interactive session containing the notebooks which you can access via a browser at the address http://[your_ip_address]:8888
 
 # Udacity Machine Learning Nanodegree intro projects
 
