@@ -10,4 +10,4 @@ A short description of the notebooks in this repo include:
 
 **face_detection_demo.ipynb** - this introduces the concept of  "face detection" a.k.a. how to automatically find (human) faces in digital images.  This machine learning task is used to e.g., organize photos (as Facebook does with [tags](https://www.facebook.com/help/124970597582337)), tell your smartphone where to focus when taking a picture (on the faces, as opposed to the background), or make augmented reality based selfies (as Snapchat does with [lenses](https://support.snapchat.com/en-US/a/lenses1)).  In this demo you will have the chance to train your own Support Vector Machine classifier on a small dataset of images to perform this task.
 
-To see a rubric for this project (a high level overview of what we hope you gain from using these notebooks) see *intro_MLND_projects_rubric.pdf*, located in this repo.
+To see a rubric for this project (a high level overview of what we hope you gain from using these notebooks) see *MLND_lab_face_detection_rubric.pdf*, located in this repo.
